@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -50,8 +52,12 @@ class HomePage extends StatelessWidget {
         return Scaffold(
           appBar: AppBar(
             title: Text(
-              "버킷 리스트",
-              style: TextStyle(color: Colors.black),
+              "미리 미리",
+              style:
+                  TextStyle(
+                    color: Colors.black, 
+                    fontWeight: FontWeight.bold
+                    fontSize: 34),      
             ),
             backgroundColor: Color.fromARGB(255, 150, 208, 255),
           ),
